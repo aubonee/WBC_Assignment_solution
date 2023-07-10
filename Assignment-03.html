@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="images/Logo.png" type="image/x-icon">
+    <title>Assignment -03</title>
+</head>
+<style>
+    .main {
+        background-color: rgb(244, 194, 226);
+        margin: 10px;
+    }
+    
+    .main-4 {
+        background-color: rgb(167, 163, 163);
+    }
+    
+    button {
+        background-color: rgb(244, 194, 226);
+    }
+    
+    .section {
+        margin: 10px;
+        padding: 10px;
+    }
+    
+    .section-title {
+        background-color: rgb(39, 37, 37);
+        color: rgb(244, 194, 226);
+        margin: 10px;
+        padding: 10px;
+    }
+</style>
+
+<body>
+    <h1 align="center" class="Header">Baking Courses</h1>
+    <div align="center"><button style="padding:15px;margin:10px"><a href="#reg-form">REGISTRATION</a></button></div>
+    <div>
+        <h2 class="explore-item">EXPLORE THINGS</h2>
+        <ol>
+
+            <li><a href="#Baking-class">The items are needed for baking class?</a></li>
+            <li><a href="#items-needed">The items You will Learn in our Baking Class</a></li>
+            <li><a href="#classes-pictures">Some pictures of our offline class</a></li>
+
+        </ol>
+    </div>
+    <div align="center" id="Baking-class">
+        <h3 class="section-title" align=center class="section">What items are needed for baking class?</h3>
+        <fieldset class="main main-1">
+            <legend>Essential Baking Equipment</legend>
+            <img src="images/1.jpg" width="425px" height="300px" alt="">
+            <dl>
+                <dt>Cake Tins</dt>
+                <dd> Food Mixer</dd>
+                <dt>Measuring Spoons</dt>
+                <dd>Mixing Bowls</dd>
+                <dt>Measuring Cups</dt>
+                <dd>Parchment Paper</dd>
+                <dt>Food Processor</dt>
+            </dl>
+        </fieldset>
+    </div>
+
+    <div id="items-needed">
+        <h3 class="section-title" align="center">What items you will learn in baking classes?</h3>
+        <fieldset class=" main main-2">
+            <legend>The items You will Learn in our Baking Class</legend>
+
+            <ul>
+                <li>Baking bread</li>
+                <li>Baking and decorating cakes</li>
+                <li> Baking fundamentals</li>
+                <li>Pastry work</li>
+                <li> Measurement and conversion</li>
+            </ul>
+        </fieldset>
+    </div>
+
+
+    <div align="center" id="classes-pictures">
+        <h3 class="section-title" align="center">Pictures from our classes</h3>
+        <fieldset class="main main-3">
+            <legend>Some pictures of our offline class</legend>
+            <img src="images/bc-2.jpg" width="425px" alt="">
+            <img src="images/bc-1.jpg" width="425px" alt="">
+            <img src="images/bc-3.jpg" width="425px" alt="">
+
+
+        </fieldset>
+    </div>
+    <div align="center">
+        <h3 class="section-title" align="center">Registration Form</h3>
+        <form class="main-4" action="#" method="get" target="_blank">
+            <fieldset>
+                <legend id="reg-form"> FORM</legend>
+                <label for="name">Enter Name:</label>
+                <input type="text" name="name" id="" placeholder="Your name">
+                <br><br>
+
+                <label for="email">Enter Mail: </label>
+                <input type="email" name="email" id="" placeholder="Your Email">
+                <br><br>
+
+                <label for="Phone-number">Enter Phone: </label>
+                <input type="text" name="Phone-number" id="Phone-number" placeholder="Your Phone number">
+                <br><br>
+
+                <label for="birthday"> Birth Date:</label>
+                <input type="date" name="birthdate" id="birthdate" placeholder="Enter the date of birth">
+                <br><br>
+
+                <label>Choose item</lebel> <br>
+                <label align="left" for="croissant"><input type="radio" name="item" id="croissant" value="croissant">croissant </label><br>
+                <label align="left" for="macarons"> <input type="radio" name="item" id="macarons" value="Cakes">Cakes</label><br>
+                <label align="left" for="cakes"> <input type="radio" name="item" id="Cakes" value="Cakes">macarons</label><br>
+                <label align="left" for="cupcakes"> <input type="radio" name="item" id="cupcakes" value="cupcakes">cupcakes </label><br>
+                <label align="left" for="Bread">  <input type="radio" name="item" id="Bread" value="Bread">Bread </label>
+
+
+                <br><br>
+
+                <label for="comment"> </label> Any Comment: <textarea name="comment" id="comment" cols="120" rows="7"></textarea>
+
+                <br>
+                <input type="checkbox" id="condition" name="condition" value="Bike"> <label for="term&condition"> Accept the term and conditions</label><br>
+                <br>
+                <button type="submit" style="align:center;padding:15px;margin:10px">Submit</button>
+                <button type="reset" style="align:center;padding:15px;margin:10px">Submit</button>
+
+            </fieldset>
+
+
+        </form>
+    </div>
+
+
+    <div></div>
+</body>
+
+</html>
